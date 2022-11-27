@@ -7,9 +7,8 @@ export const GlobalStyle = createGlobalStyle`
     padding:0;
   }
   body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #421820;
     color: #ffff;
-
   }
 `;

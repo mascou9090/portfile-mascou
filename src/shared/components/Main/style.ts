@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.main`
   display:flex;
+  margin:0 auto;
   @media (max-width: 1150px) {
     justify-content:center;
     align-items:center;
@@ -16,7 +17,7 @@ export const Section = styled.section`
 
   width:60vw;
   min-width:500px;
-  height:80vh;
+  height:75vh;
   border:1px solid #592929;
   box-shadow: 2px 2px 10px 1px rgb(39, 00, 10);
   border-radius:8px;
