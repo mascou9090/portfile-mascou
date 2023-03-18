@@ -15,3 +15,23 @@ export const Container = styled.div`
     margin-top:2rem;
   }
 `;
+
+export const Contacts = styled.div`
+    li {
+      margin:2rem;
+      list-style: none;
+      cursor: pointer;
+      color: #467899;
+      svg {
+        transition: 0.8s;
+        font-size: 3rem;
+        &:hover {
+          color: #623840
+        }
+      }
+    }
+    a {
+      color: #ccc;
+    }
+   
+`;
