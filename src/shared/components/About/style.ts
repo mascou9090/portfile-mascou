@@ -6,7 +6,7 @@ export const Container = styled.div`
   align-items: center;
   width:100%;
   height: 100%;
-  overflow: scroll;
+  overflow: auto;
   span {
     font-size: 1.5em;
     font-weight: 300;
