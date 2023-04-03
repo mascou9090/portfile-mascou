@@ -20,17 +20,19 @@ export const Container = styled.div`
     }
   }
   @media (max-width:550px) {
+    margin:8rem auto;
     div {
       p {
-        font-size:1rem;
+        font-size:1.2rem;
         font-weight: 300;
       }
     }
   }
   @media (max-width:450px) {
+    margin:8rem auto;
     div {
       p {
-        font-size:0.8rem;
+        font-size:1.2rem;
         font-weight: 300;
       }
     }
