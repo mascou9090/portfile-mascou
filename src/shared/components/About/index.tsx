@@ -5,20 +5,17 @@ export const About = () => {
     <C.Container id="HOME">
       <div>
         <p>
-          Olá me chamo Marcondes, tenho 28 anos, sou de
-          Fortaleza-CE e formado em Análise e desenvolvimento de sistemas 
-          pela universidade Estácio de Sá.
-          </p> <p>
-          Comecei minha carreira no ano de 2020, quando atraves de um colega conheci a programação, 
-          então venho me preparando para conquistar uma vaga nessa área desafiadora. </p> <p>
-          Estudei C++/Python e PHP na faculdade, mas foi com JavaScript que eu me encontrei, tanto pelas
-          facilidades, quanto pelas possibilidades. </p><p>
-          Percebi que o Framework React vinha crescendo muito no mercado e apostei nela, e venho estudando,
-           e aprimorando minhas skills.</p> <p>
-          Já passei por um estágio no Tribual Eleitoral da minha cidade, e prestei
-          assessoria para alguns colegas da faculdade, alem de prestar serviço Freela para algumas empresas.</p><p>
-          Hoje meu foco é me preparar para conquistar um perfil FullStack.
+          OLÁ ME CHAMO MARCONDES, TENHO 28 ANOS, SOU DE FORTALEZA-CE E FORMADO EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS PELA UNIVERSIDADE ESTÁCIO DE SÁ.
+        </p> <p>
+          COMECEI MINHA CARREIRA NO ANO DE 2020, QUANTO ATRAVES DE UM COLEGA CONHECI A PROGRAMAÇÃO, ENTÃO VENHO ME PREPARANDO PARA CONSQUISTAR UMA VAGA NESSA ÁREA DESAFIADORA. </p> <p>
+          ESTUDEI C++/PYTHON E PHP NA FACULDADE, MAS FOI COM JAVASCRIPT QUE ME ENCONTREI, TANTO PELAS FACILIDADES, QUANTO PELAS POSSIBILIDADES.
+        </p><p>
+          PERCEBI QUE O FRAMEWORK REACT VINHA CRESCENDO MUITO NO MERCADO E APOSTEI NELA, E VENHO ESTUDANDO, E APRIMORANDO MINHAS SKILLS.</p> <p>
+          JA PASSEI POR UME ESTÁGIO NO TRIBUNAL ELEITORAL DA MINHA CIDADE, E PRESTEI ASSESSORIA PARA ALGUNS COLEGAS DA FACULDADE, ALÉM DE PRESTAR SERVIÇO FREELA PARA ALGUMAS EMPRESAS.
+        </p><p>
+          HOJE MEU FOCO É MRE PREPARAR PARA CONQUISTAR UM PERFIL FULLSTACK.
         </p>
+          
       </div>
     </C.Container>
   );

@@ -5,4 +5,6 @@ export const ErrorComponet = styled.div`
   justify-content: center;
   text-align: center;
   margin-top: 20rem;
+  font-size: 4rem;
+  font-weight: 400;
 `;

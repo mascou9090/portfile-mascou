@@ -1,5 +1,5 @@
 import * as C from './style';
-import { SlSocialLinkedin } from 'react-icons/sl'
+import { SlSocialLinkedin } from 'react-icons/sl';
 import { BsGithub } from 'react-icons/bs';
 import { HiOutlineMail } from 'react-icons/hi';
 import { TbPhone } from 'react-icons/tb';
@@ -33,11 +33,16 @@ export const Contact = () => {
           </li>
         </ul>
         <div>
-          <h3>Entre em contato em qualquer um desses canais</h3>
-          <p>Está disponível Linkedin, Email e o Whatsapp para situações mais ágeis.</p>
-          <p>Caso queira dar uma olhada nos meus códigos, também deixei meu Github.</p>
+            <h3>Entre em contato em qualquer um desses canais</h3>
+            <p>Está disponível Linkedin, Email e o Whatsapp para situações mais ágeis.</p>
+            <p>Caso queira dar uma olhada nos meus códigos, também deixei meu Github.</p>
+          <C.Curriculo>
+            <a href="https://drive.google.com/file/d/1ULRw2b6zLS0oEpSHguyocxaZ3hZuuMDc/view?usp=share_link" >
+              Download Currículo
+            </a>
+          </C.Curriculo>
         </div>
       </C.Contacts>
-    </C.Container>
+    </C.Container >
   )
 }

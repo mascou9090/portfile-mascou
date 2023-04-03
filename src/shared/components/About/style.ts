@@ -2,20 +2,18 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 10rem 5rem;
+  margin: 6rem 5rem;
   width:  100%;
   height: 80%;
-  span {
-    font-size: 1.5em;
-    font-weight: 300;
-  }
+  box-shadow: 1px 1px 10px 1px #452030;
+  padding:1.4rem 0.5rem;
+  color: #ccc;
+  transition: 0.8s;
   div {
-    margin:0rem 2.6rem;
+    margin:2rem 2.6rem;
     text-align:center;
     p {
-      font-size: 1.3rem;
+      font-size: 1.1rem;
       font-weight: 300;
     }
   }

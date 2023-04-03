@@ -4,7 +4,7 @@ import { App } from './App';
 import { Contact } from './shared/components/Contact';
 import { ErrorPage } from './shared/components/Error';
 import { Main } from './shared/components/Main';
-import { Project } from './shared/components/Project';
+import { Projects } from './shared/components/Projects';
 
 const router = createBrowserRouter([
   {
@@ -22,7 +22,7 @@ const router = createBrowserRouter([
       },
       {
         path: "projetos",
-        element: <Project />
+        element: <Projects />
       },
     ]
   },

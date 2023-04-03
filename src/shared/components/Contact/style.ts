@@ -20,18 +20,20 @@ export const Container = styled.div`
       height:80%;
     }
   }
-`;
+  `;
 
 export const Contacts = styled.div`
     height: 75.7vh;
     div {
       text-align: center;
+
       h3 {
         font-size: 2rem;
         margin-bottom: 2rem;
       }
       p {
         font-size: 1.2rem;
+        margin-bottom:0.8rem;
       }
     }
     li {
@@ -59,3 +61,20 @@ export const Contacts = styled.div`
     }
    
 `;
+
+export const Curriculo = styled.div`
+  a {
+      text-decoration: none;
+      padding:1rem 2rem;
+      background-color:transparent;
+      cursor: pointer;
+      color: #ccc;
+      border:0.2px solid #ccc;
+      transition: 0.8s;
+      &:hover {
+        border: 0.2px solid #ccc;
+        background-color:#ccc;
+        color:#aaa;
+      }
+    }
+`
