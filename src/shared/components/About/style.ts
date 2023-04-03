@@ -4,29 +4,35 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width:100%;
-  height: 100%;
-  overflow: auto;
+  margin: 10rem 5rem;
+  width:  100%;
+  height: 80%;
   span {
     font-size: 1.5em;
     font-weight: 300;
   }
-  h2 {
-    margin: 1rem;
-    font-size: 2.5em;
-    font-weight: 300;
-  }
   div {
-    margin:1rem 6rem;
+    margin:0rem 2.6rem;
     text-align:center;
-    h3 {
-      margin:1rem;
-      font-size: 1.6em;
+    p {
+      font-size: 1.3rem;
       font-weight: 300;
     }
-    p {
-      font-size: 1,6rem;
-      font-weight: 300;
+  }
+  @media (max-width:550px) {
+    div {
+      p {
+        font-size:1rem;
+        font-weight: 300;
+      }
+    }
+  }
+  @media (max-width:450px) {
+    div {
+      p {
+        font-size:0.8rem;
+        font-weight: 300;
+      }
     }
   }
 `;

@@ -28,7 +28,6 @@ export const AboutMe = styled.div`
   margin-top:2rem;
   margin-left:10rem;
   @media (max-width:1150px) {
-
-      margin: 2rem auto;
+      margin: 2rem auto 6rem;
     }
 `;

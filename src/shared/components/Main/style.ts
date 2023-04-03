@@ -2,29 +2,16 @@ import styled from 'styled-components';
 
 export const Container = styled.main`
   display:flex;
-  margin:0 auto;
+  height:80vh;
   @media (max-width: 1150px) {
     justify-content:center;
     align-items:center;
     flex-direction:column;
-    margin:auto;
+    margin:1rem auto;
+    height:80%;
   }
 `;
 
-export const Section = styled.section`
-  
+export const ContentMain = styled.div`
   display:flex;
-
-  width:60vw;
-  min-width:500px;
-  height:73vh;
-  border:1px solid #592929;
-  box-shadow: 2px 2px 10px 1px rgb(39, 00, 10);
-  border-radius:8px;
-  margin:2rem 12rem 0 0;
-
-  @media (max-width:1150px) {
-    margin:auto;
-    min-width:300px;
-  }
 `;

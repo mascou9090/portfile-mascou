@@ -1,4 +1,4 @@
-import { Rotas } from "../../../routes"
+import { About } from "../About"
 import { Sidebar } from "../Sidebar"
 import * as C from "./style"
 
@@ -6,9 +6,9 @@ export const Main = () => {
   return (
     <C.Container>
       <Sidebar />
-      <C.Section>
-        <Rotas/>
-      </C.Section>
+      <C.ContentMain>
+        <About />
+      </C.ContentMain>
     </C.Container>
   )
 }

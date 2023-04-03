@@ -9,7 +9,6 @@ export const Contact = () => {
 
   return (
     <C.Container>
-      <h2>Contatos</h2>
       <C.Contacts>
         <ul>
           <li>
@@ -29,10 +28,15 @@ export const Contact = () => {
           </li>
           <li>
             <a href='https://api.whatsapp.com/send?phone=5585999504253&text=Ol%C3%A1,%20tudo%20bem?%0AVim%20direto%20do%20seu%20portf%C3%B3lio.%0A'>
-            <TbPhone />
+              <TbPhone />
             </a>
           </li>
         </ul>
+        <div>
+          <h3>Entre em contato em qualquer um desses canais</h3>
+          <p>Está disponível Linkedin, Email e o Whatsapp para situações mais ágeis.</p>
+          <p>Caso queira dar uma olhada nos meus códigos, também deixei meu Github.</p>
+        </div>
       </C.Contacts>
     </C.Container>
   )
