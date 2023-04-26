@@ -49,7 +49,13 @@ export const NevDiv = styled.div`
     padding-top: 5rem;
     text-align: center;
     height: 20rem;
-    width: 30rem;
+    max-width: 30rem;
     border: 1px solid #ccc;
+  }
+  @media (max-width:1150px) {
+    margin: 2rem auto 6rem;
+    p {
+      min-width:10rem;
+    }
   }
 `;
