@@ -10,7 +10,7 @@ export const Container = styled.div`
     height: 100%;
     transition: 0.8s;
     &:hover {
-      opacity: 0.8;
+      opacity: 0.6;
     }
   }
 `;

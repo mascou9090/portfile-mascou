@@ -5,7 +5,7 @@ export const Project = ({src, urlDirect}: PropsProj) => {
   return (
     <C.Container>
       <a href={urlDirect}>
-      <img src={src}/>
+      <img src={src} alt="Imagem fisica de projetos pessoais"/>
       </a>
     </C.Container>
   )

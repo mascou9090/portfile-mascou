@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.aside`
   width:40vw;
   min-width:600px;
+  height: 80%;
   @media (max-width:1150px) {
     min-width:0;
   }

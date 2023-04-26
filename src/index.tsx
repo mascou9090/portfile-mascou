@@ -5,6 +5,8 @@ import { Contact } from './shared/components/Contact';
 import { ErrorPage } from './shared/components/Error';
 import { Main } from './shared/components/Main';
 import { Projects } from './shared/components/Projects';
+import { Provider } from 'react-redux'
+import { store } from './shared/redux/store';
 
 const router = createBrowserRouter([
   {
@@ -32,8 +34,8 @@ const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
-  <>
+  <Provider store={store}>
       <RouterProvider router={router} />
-  </>
+  </Provider>
 );
 
