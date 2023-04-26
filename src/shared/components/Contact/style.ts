@@ -1,4 +1,14 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
+
+const textAnimation = keyframes`
+  from {
+    transform: translateY(+20px);
+    opacity: 0;
+  } to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+`;
 
 export const Container = styled.div`
   display: flex;
@@ -6,6 +16,7 @@ export const Container = styled.div`
   align-items: center;
   width:100%;
   height: 100%;
+  animation: ${textAnimation} 0.6s ease-in;
   ul {
     display: flex;
   }

@@ -9,4 +9,8 @@ export const Container = styled.div`
   width:1.8rem;
   height:3rem;
   margin-right: 1rem;
+  &:hover {
+    opacity:0.6;
+    cursor: pointer;
+  }
 `;

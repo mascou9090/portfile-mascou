@@ -5,8 +5,9 @@ export const About = () => {
     <C.Container id="HOME">
       <div>
         <p>
-          OLÁ ME CHAMO MARCONDES, TENHO 28 ANOS, SOU DE FORTALEZA-CE E FORMADO EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS PELA UNIVERSIDADE ESTÁCIO DE SÁ.
-        </p> <p>
+          OLÁ ME CHAMO MARCONDES, TENHO 29 ANOS, SOU DE FORTALEZA-CE E FORMADO EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS PELA UNIVERSIDADE ESTÁCIO DE SÁ.
+        </p>
+        <p>
           COMECEI MINHA CARREIRA NO ANO DE 2020, QUANTO ATRAVES DE UM COLEGA CONHECI A PROGRAMAÇÃO, ENTÃO VENHO ME PREPARANDO PARA CONSQUISTAR UMA VAGA NESSA ÁREA DESAFIADORA. </p> <p>
           ESTUDEI C++/PYTHON E PHP NA FACULDADE, MAS FOI COM JAVASCRIPT QUE ME ENCONTREI, TANTO PELAS FACILIDADES, QUANTO PELAS POSSIBILIDADES.
         </p><p>
@@ -15,7 +16,30 @@ export const About = () => {
         </p><p>
           HOJE MEU FOCO É MRE PREPARAR PARA CONQUISTAR UM PERFIL FULLSTACK.
         </p>
-          
+        <hr/>
+
+      </div>
+      <div>
+        <p>
+          Hello my name is Marcondes, I'm 29 years old, I'm from
+          Fortaleza-CE and graduated in Systems Analysis and Development 
+          by the university Estácio de Sá.
+        </p>
+        <p>
+        I started my career in the year 2020, when through a colleague I met programming, 
+          so I come to prepare myself to win a place in this challenging area.
+        </p><p>
+        I studied C++/Python and PHP in college, but it was with JavaScript that I found myself, both for the
+          ease, as for the possibilities.
+        </p><p>
+        I realized that the React Framework had been growing a lot in the market and I bet on it, and I've been studying,
+           and honing my skills.
+        </p>
+        <p>
+        I've been through an internship at the Electoral Court of my city, and I've been there.
+          advice for some college colleagues, in addition to providing Freela service to some companies.
+        </p>
+        <p>Today my focus is to prepare myself to achieve a FullStack profile.</p>
       </div>
     </C.Container>
   );

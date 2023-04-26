@@ -4,6 +4,9 @@ import styled from "styled-components";
 
 export const Header = styled.header`
   height:2rem;
+  padding-bottom: 3rem;
+  margin: 0 4rem 0;
+  border-bottom: 1px solid #ccc;
   ul {
     display:flex;
     justify-content:center;
