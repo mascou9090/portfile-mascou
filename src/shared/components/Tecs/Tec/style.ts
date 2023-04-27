@@ -7,8 +7,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   width:1.8rem;
-  height:3rem;
-  margin-right: 1rem;
+  margin: 0.6rem;
   &:hover {
     opacity:0.6;
     cursor: pointer;

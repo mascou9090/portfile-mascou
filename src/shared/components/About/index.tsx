@@ -5,38 +5,45 @@ export const About = () => {
     <C.Container id="HOME">
       <div>
         <p>
-          OLÁ ME CHAMO MARCONDES, TENHO 29 ANOS, SOU DE FORTALEZA-CE E FORMADO EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS PELA UNIVERSIDADE ESTÁCIO DE SÁ.
+          Olá me chamo Marcondes, tenho 29 anos e sou de Fortaleza-CE.
         </p>
         <p>
-          COMECEI MINHA CARREIRA NO ANO DE 2020, QUANDO ATRAVES DE UM COLEGA CONHECI A PROGRAMAÇÃO, ENTÃO VENHO ME PREPARANDO PARA CONSQUISTAR UMA VAGA NESSA ÁREA DESAFIADORA. </p> <p>
-          ESTUDEI C++/PYTHON E PHP NA FACULDADE, MAS FOI COM JAVASCRIPT QUE ME ENCONTREI, TANTO PELAS FACILIDADES, QUANTO PELAS POSSIBILIDADES.
-        </p><p>
-          PERCEBI QUE O FRAMEWORK REACT VINHA CRESCENDO MUITO NO MERCADO E APOSTEI NELA, E VENHO ESTUDANDO, E APRIMORANDO MINHAS HABILIDADES.</p> <p>
-          JA PRESTEI ESTÁGIO NO TRIBUNAL ELEITORAL DA MINHA CIDADE, E PRESTEI ASSESSORIA PARA ALGUNS COLEGAS DA FACULDADE, ALÉM DE TER PRESTADO SERVIÇO FREELANCER PARA ALGUMAS EMPRESAS.
-        </p><p>
-          HOJE MEU FOCO É ME PREPARAR PARA CONQUISTAR UM PERFIL MAIS COMPLETO POSSÍVEL.
+          Formado em Análise e desenvolvimento de sistemas pela Universidade Estácio de sá,
+          iniciei minha carreira no ano de 2020, quando através de um colega, conheci a programação. Desde então, venho me preparando para conquistar uma vaga nessa área desafiadora.
         </p>
-        <hr/>
+        <p>
+          Estudei C++/Python e PHP na universidade, porém foi com JavaScript que me encontrei, tanto pelas facilidades, quanto e principalmente, pelas possibilidades.
+        </p>
+        <p>
+          Percebi que o framework React cresceu muito no mercado, por isso investi nele. Venho estudando e aprimorando minhas habilidades.
+        </p>
+        <p>
+          Realizei estágio no Tribunal Eleitoral da minha cidade, e algumas assessorias pessoais. Além de prestar serviços para algumas empresas.
+        </p>
+        <p>
+          Hoje meu foco é conquistar um perfil FullStack.
+        </p>
+        <hr />
 
       </div>
       <div>
         <p>
           Hello my name is Marcondes, I'm 29 years old, I'm from
-          Fortaleza-CE and graduated in Systems Analysis and Development 
+          Fortaleza-CE and graduated in Systems Analysis and Development
           by the university Estácio de Sá.
         </p>
         <p>
-        I started my career in the year 2020, when through a colleague I met programming, 
+          I started my career in the year 2020, when through a colleague I met programming,
           so I come to prepare myself to win a place in this challenging area.
         </p><p>
-        I studied C++/Python and PHP in college, but it was with JavaScript that I found myself, both for the
+          I studied C++/Python and PHP in college, but it was with JavaScript that I found myself, both for the
           ease, as for the possibilities.
         </p><p>
-        I realized that the React Framework had been growing a lot in the market and I bet on it, and I've been studying,
-           and honing my skills.
+          I realized that the React Framework had been growing a lot in the market and I bet on it, and I've been studying,
+          and honing my skills.
         </p>
         <p>
-        I've been through an internship at the Electoral Court of my city, and I've been there.
+          I've been through an internship at the Electoral Court of my city, and I've been there.
           advice for some college colleagues, in addition to providing Freela service to some companies.
         </p>
         <p>Today my focus is to prepare myself to achieve a FullStack profile.</p>
