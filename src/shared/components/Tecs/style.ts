@@ -5,7 +5,7 @@ export const Container = styled.div`
   justify-content:center;
   flex-wrap: wrap;
   text-align: center;
-  margin-top: 1.4rem;
+  margin-top: 1.6rem;
   h2 {
     margin: 1rem;
     font-size: 2.5em;
