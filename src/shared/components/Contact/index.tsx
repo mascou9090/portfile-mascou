@@ -37,7 +37,7 @@ export const Contact = () => {
             <p>Está disponível Linkedin, Email e o Whatsapp para situações mais ágeis.</p>
             <p>Caso queira dar uma olhada nos meus códigos, também deixei meu Github.</p>
           <C.Curriculo>
-            <a href="https://drive.google.com/file/d/1ULRw2b6zLS0oEpSHguyocxaZ3hZuuMDc/view?usp=share_link" >
+            <a href="https://1drv.ms/b/s!AiESZs-e_cggvFApF91JRv5Zk7tA?e=zqjezj" >
               Download Currículo
             </a>
           </C.Curriculo>
