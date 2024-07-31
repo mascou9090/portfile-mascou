@@ -22,22 +22,20 @@ export const Footer = () => {
                     <a className="hover:text-gray-400 pr-1 cursor-pointer" href="#">
                         Github
                     </a>
-                          /  
-                        <a className="hover:text-gray-400 pl-1 cursor-pointer" href="">
-                            Instagram
-                            </a> 
+                    /
+                    <a className="hover:text-gray-400 pl-1 cursor-pointer" href="">
+                        Instagram
+                    </a>
                 </p>
                 <p><strong>Indications</strong>
                     <br />
                     <a className="hover:text-gray-400 cursor-pointer" href="#">Coments</a>
                 </p>
-                <p>
-                    <nav className="flex space-x-6 list-none mx-80 items-center">
-                        <li className="hover:text-gray-400 cursor-pointer">Github</li>
-                        <li className="hover:text-gray-400 cursor-pointer">Intagram</li>
-                        <li className="hover:text-gray-400 cursor-pointer">Linkdin</li>
-                    </nav>
-                </p>
+                <nav className="flex space-x-6 pl-60 md:pl-10 sm:p-0 list-none mx-80 items-center">
+                    <li className="hover:text-gray-400 cursor-pointer">Github</li>
+                    <li className="hover:text-gray-400 cursor-pointer">Intagram</li>
+                    <li className="hover:text-gray-400 cursor-pointer">Linkdin</li>
+                </nav>
             </div>
         </footer>
     )
