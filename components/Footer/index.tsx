@@ -1,8 +1,8 @@
 export const Footer = () => {
     return (
-        <footer className="justify-center border-t-2 mx-6 border-gray-500 flex p-10 w-auto">
+        <footer className="justify-center mx-6 border-t-2 border-gray-500 flex p-10 w-auto">
 
-            <div className="flex space-x-6">
+            <div className="flex space-x-6 sm:flex-col">
                 <p>
                     <strong>© 2024</strong>
                     <br />
@@ -31,7 +31,7 @@ export const Footer = () => {
                     <br />
                     <a className="hover:text-gray-400 cursor-pointer" href="#">Coments</a>
                 </p>
-                <nav className="flex space-x-6 pl-60 md:pl-10 sm:p-0 list-none mx-80 items-center">
+                <nav className="flex space-x-6 pl-60 list-none mx-80 items-center ">
                     <li className="hover:text-gray-400 cursor-pointer">Github</li>
                     <li className="hover:text-gray-400 cursor-pointer">Intagram</li>
                     <li className="hover:text-gray-400 cursor-pointer">Linkdin</li>
