@@ -7,7 +7,7 @@ export const Header = () => {
                 <strong className="m-4 text-xl hover:text-pink-300 duration-300 text-black cursor-pointer">Marcondes FP</strong>
             </div>
             <div>
-                <img className="cursor-not-allowed hover:opacity-30 duration-300 w-10 h-10 my-8 mr-10" src={Pincel.src} alt="brush Image icon" />
+                <img className="cursor-not-allowed hover:opacity-30 duration-300 w-10 h-10 sm:mr-40 xl:mr-80 my-8 mr-10" src={Pincel.src} alt="brush Image icon" />
             </div>
         </header>
     )
