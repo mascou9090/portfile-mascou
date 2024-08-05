@@ -1,9 +1,9 @@
 
 export const MainContent = () => {
     return (
-        <main className="w-full text-black">
+        <main className="w-[90%] text-black">
             <div className="text-end font-bold text-3xl">
-                <h1 className="mt-20 mr-32 xl:mr-96">Welcome to my portfolio.</h1>
+                <h1 className="mt-20 mr-20 xl:mr-96">Welcome to my portfolio.</h1>
             </div>
             <div className="mt-60">
                 <h2 className="text-md text-blue-700 hover:text-pink-300 duration-300 cursor-pointer font-bold">HOLLA, MY NAME IS MARCONDES.</h2>
@@ -20,7 +20,7 @@ export const MainContent = () => {
                     </p>
                 </aside>
             </div>
-            <div className="m-40 text-center text-3xl">
+            <div className="mt-20 text-center text-3xl">
                 <h3>
                     <span className="relativo">
                         <span className="text-red-700 animate-pulse absolute font-bold">IT'S BULDING!!</span>
