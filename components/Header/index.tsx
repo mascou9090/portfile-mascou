@@ -2,7 +2,7 @@ import Pincel from "../../assets/pincel.png"
 export const Header = () => {
     return (
         <header className="flex w-auto">
-            <div className="flex w-full ml-20 mt-8">
+            <div className="flex w-full ml-6 sm:ml-20 mt-8">
                 <img className="w-14 h-14 rounded-full cursor-pointer" src="https://avatars.githubusercontent.com/u/104319336?v=4" alt="perfil photo" />
                 <strong className="m-4 text-xl hover:text-pink-300 duration-300 text-black cursor-pointer">Marcondes FP</strong>
             </div>

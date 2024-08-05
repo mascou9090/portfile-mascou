@@ -2,7 +2,7 @@
 export const MainContent = () => {
     return (
         <main className="w-[90%] text-black">
-            <div className="text-end font-bold text-3xl">
+            <div className="text-end font-bold text-xl sm:text-3xl">
                 <h1 className="mt-20 mr-20 xl:mr-96">Welcome to my portfolio.</h1>
             </div>
             <div className="mt-60">

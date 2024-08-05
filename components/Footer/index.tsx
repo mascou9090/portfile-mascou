@@ -3,9 +3,9 @@ import Instagram from "../../assets/instagram.png";
 import Linkedin from "../../assets/linkedin.png";
 export const Footer = () => {
     return (
-        <footer className="justify-center mx-6 border-t-2 text-black flex border-gray-500 p-10 w-auto">
+        <footer className="justify-center mx-6 border-t-2 text-black flex border-gray-500 p-8 w-auto">
 
-            <div className="pl-18 md:flex md:space-x-20">
+            <div className="md:flex md:space-x-20">
                 <p>
                     <strong>© 2022 - 2024</strong>
                     <br />
@@ -35,7 +35,7 @@ export const Footer = () => {
                     <a className="hover:text-pink-300 duration-300 cursor-pointer" href="#">Coments</a>
                 </p>
             </div>
-            <div className="ml-32 sm:ml-10 sm:flex sm:space-x-4 space-y-2 sm:-space-y-0">
+            <div className="ml-20 sm:ml-10 sm:flex sm:space-x-4 space-y-2 sm:-space-y-0">
                 <img className="w-6 h-6 hover:opacity-30 duration-300 cursor-not-allowed" src={Github.src} alt="Github image icon" />
                 <img className="w-6 h-6 hover:opacity-30 duration-300 cursor-not-allowed" src={Instagram.src} alt="Instagram image icon"/>
                 <img className="w-6 h-6 hover:opacity-30 duration-300 cursor-not-allowed" src={Linkedin.src} alt="Linkedin image icon" />
