@@ -7,7 +7,7 @@ export const NavBar = () => {
                 <li className="rotate-90 trasition-colors duration-300 hover:text-red-300 cursor-pointer">Home</li>
                 <li className="rotate-90 trasition-colors duration-300 hover:text-red-300 cursor-pointer">About</li>
                 <li className="rotate-90 trasition-colors duration-300 hover:text-red-300 cursor-pointer">
-                    <Link href="#">Contact</Link></li>
+                    <Link href="/contact">Contact</Link></li>
             </nav>
         </div>
     )
