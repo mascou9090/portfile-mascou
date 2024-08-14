@@ -8,16 +8,16 @@ import { Header } from "../header";
 
 export default function Contact() {
     return (
-        <div className="h-screen bg-gradient-to-l from-purple-600 to-violet-950">
+        <div className="h-full bg-gradient-to-l from-purple-600 to-violet-950">
             <Header />
-            <div className="h-[60%]">
+            <div className="">
                 <div className="justify-center flex space-x-8 flex-wrap">
-                    <img className="w-20 h-20 hover:opacity-30 duration-300 cursor-not-allowed" src={Instagram.src} alt="" />
-                    <img className="w-20 h-20 hover:opacity-30 duration-300 cursor-not-allowed" src={Linkedin.src} alt="" />
-                    <img className="w-20 h-20 hover:opacity-30 duration-300 cursor-not-allowed" src={Whatsap.src} alt="" />
-                    <img className="w-20 h-20 hover:opacity-30 duration-300 cursor-not-allowed" src={Email.src} alt="" />
+                    <img className="w-16 h-16 hover:opacity-30 duration-300 cursor-not-allowed" src={Instagram.src} alt="Instagram Icon Navgation" />
+                    <img className="w-16 h-16 hover:opacity-30 duration-300 cursor-not-allowed" src={Linkedin.src} alt="Linkdin Icon Navgation" />
+                    <img className="w-16 h-16 hover:opacity-30 duration-300 cursor-not-allowed" src={Whatsap.src} alt="Whatsao Icon Navgation" />
+                    <img className="w-16 h-16 hover:opacity-30 duration-300 cursor-not-allowed" src={Email.src} alt="Email Icon Navgation" />
                     <a href="https://github.com/mascou9090">
-                        <img className="w-20 h-20 hover:opacity-30 duration-300 cursor-pointer" src={Github.src} alt="Github icon" />
+                        <img className="w-20 h-20 hover:opacity-30 duration-300 cursor-pointer" src={Github.src} alt="Github icon Navgation" />
                     </a>
                 </div>
                 <div className="p-10 flex flex-col text-center justify-center">
@@ -26,7 +26,7 @@ export default function Contact() {
                     <p className="text-md">Caso queira dar uma olhada nos meus códigos, também deixei meu <a className="hover:text-red-500 font-bold duration-300" href="https://github.com/mascou9090">Github</a>.</p>
                 </div>
                 <div className="flex justify-center">
-                    <button className="border-none my-20 bg-pink-400 w-60 h-14 rounded-lg hover:opacity-70 duration-300 cursor-pointer hover:text-red-600 font-bold">Download</button>
+                    <button className="border-none my-20 mx-4 bg-pink-400 w-60 h-14 rounded-lg hover:opacity-70 duration-300 cursor-pointer hover:text-red-600 font-bold">Curriculun Download</button>
                 </div>
             </div>
             <Footer />
