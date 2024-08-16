@@ -8,16 +8,24 @@ import { Header } from "../header";
 
 export default function Contact() {
     return (
-        <div className="h-full bg-gradient-to-l from-purple-600 to-violet-950">
+        <div className="h-full sm:h-screen bg-gradient-to-l from-purple-600 to-violet-950 text-black">
             <Header />
             <div className="">
                 <div className="justify-center flex space-x-8 flex-wrap">
-                    <img className="w-16 h-16 hover:opacity-30 duration-300 cursor-not-allowed" src={Instagram.src} alt="Instagram Icon Navgation" />
-                    <img className="w-16 h-16 hover:opacity-30 duration-300 cursor-not-allowed" src={Linkedin.src} alt="Linkdin Icon Navgation" />
-                    <img className="w-16 h-16 hover:opacity-30 duration-300 cursor-not-allowed" src={Whatsap.src} alt="Whatsao Icon Navgation" />
-                    <img className="w-16 h-16 hover:opacity-30 duration-300 cursor-not-allowed" src={Email.src} alt="Email Icon Navgation" />
                     <a href="https://github.com/mascou9090">
-                        <img className="w-20 h-20 hover:opacity-30 duration-300 cursor-pointer" src={Github.src} alt="Github icon Navgation" />
+                        <img className="w-16 h-16 hover:opacity-50 duration-300 cursor-pointer" src={Github.src} alt="Github icon Navgation" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/marcondes-pinheiro-48aa231ab/">
+                        <img className="w-16 h-16 hover:opacity-50 duration-300 cursor-pointer" src={Linkedin.src} alt="Github icon Navgation" />
+                    </a>
+                    <a href="https://www.instagram.com/marcondes_soeu/">
+                        <img className="w-16 h-16 hover:opacity-50 duration-300 cursor-pointer" src={Instagram.src} alt="Github icon Navgation" />
+                    </a>
+                    <a href="mailto:marcondessam@gmail.com">
+                        <img className="w-16 h-16 hover:opacity-50 duration-300 cursor-pointer" src={Email.src} alt="Github icon Navgation" />
+                    </a>
+                    <a href="https://wa.me//5585999504253?text=Ola%20Dev%20Marcondes%20venho%20direcionado%20do%20seu%20site!">
+                        <img className="w-16 h-16 hover:opacity-50 duration-300 cursor-pointer" src={Whatsap.src} alt="Github icon Navgation" />
                     </a>
                 </div>
                 <div className="p-10 flex flex-col text-center justify-center">
