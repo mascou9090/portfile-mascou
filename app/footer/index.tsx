@@ -35,10 +35,16 @@ export const Footer = () => {
                     <a className="hover:text-pink-300 duration-300 cursor-pointer" href="#">Coments</a>
                 </p>
             </div>
-            <div className="ml-20 sm:ml-10 sm:flex sm:space-x-4 space-y-2 sm:-space-y-0">
-                <img className="w-6 h-6 hover:opacity-30 duration-300 cursor-not-allowed" src={Github.src} alt="Github image icon" />
-                <img className="w-6 h-6 hover:opacity-30 duration-300 cursor-not-allowed" src={Instagram.src} alt="Instagram image icon"/>
-                <img className="w-6 h-6 hover:opacity-30 duration-300 cursor-not-allowed" src={Linkedin.src} alt="Linkedin image icon" />
+            <div className="ml-6 sm:ml-10 sm:flex sm:space-x-4 sm:space-y-0 ">
+                <a href="https://github.com/mascou9090">
+                    <img className="w-6 h-6 mb-4 hover:opacity-30 duration-300 cursor-pointer" src={Github.src} alt="Github image icon" />
+                </a>
+                <a href="https://www.instagram.com/marcondes_soeu/">
+                    <img className="w-6 h-6 mb-4 hover:opacity-30 duration-300 cursor-pointer" src={Instagram.src} alt="Instagram image icon" />
+                </a>
+                <a href="https://www.linkedin.com/in/marcondes-pinheiro-48aa231ab/">
+                    <img className="w-6 h-6 mb-4 hover:opacity-30 duration-300 cursor-pointer" src={Linkedin.src} alt="Linkedin image icon" />
+                </a>
             </div>
         </footer>
     )

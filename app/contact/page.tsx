@@ -31,7 +31,7 @@ export default function Contact() {
                 <div className="p-10 flex flex-col text-center justify-center">
                     <h1 className="text-3xl">Entre em contato em qualquer um desses canais</h1>
                     <p className="text-md">Está disponível Linkedin, Email e o Whatsapp para situações mais ágeis.</p>
-                    <p className="text-md">Caso queira dar uma olhada nos meus códigos, também deixei meu <a className="hover:text-red-500 font-bold duration-300" href="https://github.com/mascou9090">Github</a>.</p>
+                    <p className="text-md">Caso queira dar uma olhada nos meus códigos, também deixei meu <a className="hover:text-pink-300 font-bold duration-300" href="https://github.com/mascou9090">Github</a>.</p>
                 </div>
                 <div className="flex justify-center">
                     <button className="border-none my-20 mx-4 bg-pink-400 w-60 h-14 rounded-lg hover:opacity-70 duration-300 cursor-pointer hover:text-red-600 font-bold">Curriculun Download</button>
