@@ -4,14 +4,18 @@ export const NavBar = () => {
     return (
         <div className="">
             <nav className="list-none space-y-32 sm:pt-96 duration-300 w-14 sm:w-36 text-black font-bold text-xl py-80">
-                <li className="rotate-90 trasition-colors duration-300 hover:text-red-300 cursor-pointer">
+                <li className="rotate-90 trasition-colors duration-300 hover:opacity-40 cursor-pointer">
                     <Link href="/">
                         Home
                     </Link>
-                    
-                    </li>
-                <li className="rotate-90 trasition-colors duration-300 hover:text-red-300 cursor-pointer">About</li>
-                <li className="rotate-90 trasition-colors duration-300 hover:text-red-300 cursor-pointer">
+
+                </li>
+                <li className="rotate-90 trasition-colors duration-300 hover:opacity-40 cursor-pointer">
+
+                    <Link href="/about">
+                        About
+                    </Link></li>
+                <li className="rotate-90 trasition-colors duration-300 hover:opacity-40 cursor-pointer">
                     <Link href="/contact">Contact</Link></li>
             </nav>
         </div>

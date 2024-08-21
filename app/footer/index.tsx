@@ -9,30 +9,30 @@ export const Footer = () => {
                 <p>
                     <strong>© 2022 - 2024</strong>
                     <br />
-                    <a className="hover:text-pink-300 duration-300 cursor-pointer" href="#">
+                    <a className="hover:opacity-40 duration-300 cursor-pointer" href="#">
                         Marcondes FP
                     </a>
                 </p>
                 <p>
                     <strong>Work</strong>
                     <br />
-                    <a className="hover:text-pink-300 duration-300 cursor-pointer" href="#">
+                    <a className="hover:opacity-40 duration-300 cursor-pointer" href="#">
                         Develep and Logistic
                     </a>
                 </p>
                 <p><strong>Social</strong>
                     <br />
-                    <a className="hover:text-pink-300 pr-1 duration-300 cursor-pointer" href="#">
+                    <a className="hover:opacity-40 pr-1 duration-300 cursor-pointer" href="#">
                         Github
                     </a>
                     /
-                    <a className="hover:text-pink-300 pl-1 duration-300 cursor-pointer" href="">
+                    <a className="hover:opacity-40 pl-1 duration-300 cursor-pointer" href="">
                         Instagram
                     </a>
                 </p>
                 <p><strong>Indications</strong>
                     <br />
-                    <a className="hover:text-pink-300 duration-300 cursor-pointer" href="#">Coments</a>
+                    <a className="hover:opacity-40 duration-300 cursor-pointer" href="#">Coments</a>
                 </p>
             </div>
             <div className="ml-6 sm:ml-10 sm:flex sm:space-x-4 sm:space-y-0 ">
