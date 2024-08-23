@@ -23,18 +23,18 @@ export const MainContent = () => {
                 </p>
             </aside>
             <aside className="mb-10 mt-32 space-y-48">
-                <div className="w-3/4 sm:flex">
-                    <img className="" src={Computer.src} alt="" />
+                <div className="w-3/4 sm:m-auto sm:flex">
+                    <img className="max-h-60" src={Computer.src} alt="" />
                     <p className="my-36 text-sm"> <strong className="text-lg text-blue-700">Each project is unique</strong>, and I take a pragmatic approach to each job, with the aim of delivering<br /> <span className="text-lg text-slate-600 dark:text-pink-400">the best possible results.</span></p>
                 </div>
 
-                <div className="w-3/4 mx-10 sm:flex">
-                    <img className="" src={Smartphone.src} alt="" />
-                    <p className="pb-32 sm:ml-28 my-36">With extensive experience in building complex interfaces,<br /> <strong className="text-blue-700">I am prepared to develop everything from single-page applications to scalable design systems.</strong></p>
+                <div className="w-3/4 sm:m-auto sm:flex">
+                    <img className="sm:mt-10 m-auto max-h-60" src={Smartphone.src} alt="" />
+                    <p className="sm:ml-28 my-36">With extensive experience in building complex interfaces,<br /> <strong className="text-blue-700">I am prepared to develop everything from single-page applications to scalable design systems.</strong></p>
                 </div>
-                <div className="w-3/4 mx-10 sm:flex">
-                    <img className="" src={Tablet.src} alt="" />
-                    <p className="pb-32 sm:ml-28 my-36 text-lg"><strong className="text-cyan-700 text-3xl">I can help you </strong>choose the most suitable technology for your project and, although I value good frameworks,<br /> <span className="text-black dark:text-red-400">I guarantee that the technology will always be used with a clear purpose, and not just for fashion.</span></p>
+                <div className="w-3/4 sm:m-auto sm:flex">
+                    <img className="max-h-60 m-auto" src={Tablet.src} alt="" />
+                    <p className="sm:ml-28 my-36 text-lg"><strong className="text-cyan-700 text-3xl">I can help you </strong>choose the most suitable technology for your project and, although I value good frameworks,<br /> <span className="text-black dark:text-red-400">I guarantee that the technology will always be used with a clear purpose, and not just for fashion.</span></p>
                 </div>
             </aside>
             <div className="flex flex-col justify-center">
