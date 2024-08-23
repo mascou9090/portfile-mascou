@@ -1,3 +1,5 @@
+'use client'
+//import { useEffect } from "react"
 import Project from "../project"
 
 export const MainContent = () => {
@@ -19,8 +21,8 @@ export const MainContent = () => {
             </aside>
             <div className="flex flex-col justify-center">
 
-                <h2 className="text-center text-3xl font-bold m-10">Projects</h2>
-                <div className="m-10 flex flex-wrap justify-center gap-4">
+                <h2 className="text-center text-3xl font-bold m-10 mr-24">Projects</h2>
+                <div className="mb-10 mr-12 flex flex-wrap justify-center gap-4">
                     < Project />
                     < Project />
                     < Project />
