@@ -12,6 +12,17 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },animation: {
+        "content-main": "hiddenImg 0.8s ease",
+        "content-second": "hiddenImg 1.5s ease",
+        "content-third": "hiddenImg 2s ease",
+      },
+      keyframes: {
+        hiddenImg: {
+          "0%": {transform: "translateX(-10px)", opacity: "0"},
+          "100%": {transform: "translateX(0px)", opacity: "1"}
+        },
+        
       },
     },
   },
