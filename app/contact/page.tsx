@@ -37,6 +37,7 @@ export default function Contact() {
                 </div>
                 <div className="flex animate-content-main justify-center">
                     <Link href="https://drive.google.com/file/d/1S5EBi9vDpandKnpjOQ6cxiabTFW2974R/view?usp=drive_link" passHref>
+                        {/* biome-ignore lint/a11y/useButtonType: <explanation> */}
                         <button className="border-none my-20 mx-4 w-60 h-14 rounded-lg dark:text-gray-300 bg-blue-700 hover:bg-slate-800 hover:text-black text-gray-800 dark:bg-sky-600 dark:hover:bg-stone-900 duration-300 cursor-pointer dark:hover:text-sky-400 font-bold">Curriculun Download</button>
                     </Link>
                 </div>

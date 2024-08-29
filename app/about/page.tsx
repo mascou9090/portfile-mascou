@@ -3,8 +3,8 @@ export default function Abount() {
         <div className="animate-content-second">
             <div className="sm:flex">
 
-                <div className="flex justify-center">
-                    <img className="ml-10 animate-content-main my-20 sm:w-80 sm:h-80 rounded-full" src="https://avatars.githubusercontent.com/u/104319336?v=4" alt="Perfil photo" />
+                <div className="flex m-auto justify-center">
+                    <img className="animate-content-main my-20 sm:w-80 sm:h-80 rounded-full" src="https://avatars.githubusercontent.com/u/104319336?v=4" alt="Perfil pictore" />
                 </div>
                 <div className="p-10 sm:w-[60%] text-black ">
                     <h2 className="mb-5 animate-content-third m-auto w-44 text-3xl font-bold dark:hover:text-pink-500 dark:text-sky-500 hover:text-sky-400 text-pink-500 duration-300 cursor-pointer">Hello there!</h2>
