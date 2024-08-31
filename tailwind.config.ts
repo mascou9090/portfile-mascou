@@ -22,8 +22,10 @@ const config: Config = {
           "0%": {transform: "translateX(-10px)", opacity: "0"},
           "100%": {transform: "translateX(0px)", opacity: "1"}
         },
-        
       },
+      fontFamily: {
+        sans: ['var(--font-family-robot)']
+      }
     },
   },
   plugins: [],

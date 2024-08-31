@@ -4,6 +4,14 @@ import Instagram from "../assets/instagram.png"
 import Linkedin from "../assets/linkedin.png"
 import "./globals.css";
 import Link from "next/link";
+import {Roboto} from "next/font/google";
+import {Oswald} from "next/font/google";
+
+const maintFontFamilyRobot = Roboto({
+    weight: ['300', '400', '700'],
+    subsets: ['latin'],
+    variable:'--font-family-robot',
+});
 
 export const metadata: Metadata = {
     title: "MarcondesFR | Portfile",
@@ -16,24 +24,23 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="pt-BR">
+        <html lang="pt-BR" className={maintFontFamilyRobot.variable}>
             <body className="dark:text-gray-300 text-black bg-gradient-to-l dark:from-gray-900 dark:to-gray-800 bg-gray-300">
                 <header className="flex justify-center sm:justify-start w-auto">
                     <div className="" >
                         <div className="pl-12 w-full sm:ml-20 mt-8">
                             <Link className="m-auto" href="/">
-                                <strong className="text-4xl pl-4 hover:opacity-40 duration-300 text-black cursor-pointer">
+                                <strong className="text-4xl hover:opacity-40 duration-300 text-black cursor-pointer">
                                     Marcondes FP
                                 </strong>
                             </Link>
-                            <p className="text-black ml-14 font-bold text-sm">Junior Frontend Engineer</p>
-                            <div className="ml-6 pl-4 mb-6">
+                            <p className="text-black pl-8 font-bold text-sm">Junior Frontend Engineer</p>
+                            <div className="ml-6 mb-6">
                                 <nav className="list-none duration-300 mt-4 space-x-4 flex text-black font-bold text-md">
                                     <li className="after:content-[''] after:duration-500 after:w-[0px] after:h-0.5 after:ease-out after:block after:to-sky-700 after:bg-gradient-to-r after:from-gray-800 hover:after:w-full duration-300 hover:text-sky-700 cursor-pointer">
                                         <Link href="/">
                                             Home
                                         </Link>
-
                                     </li>
                                     <li className="after:content-[''] after:duration-500 after:w-[0px] after:h-0.5 after:ease-out after:block after:to-sky-700 after:bg-gradient-to-r after:from-gray-800 hover:after:w-full duration-300 hover:text-sky-700 cursor-pointer">
 
