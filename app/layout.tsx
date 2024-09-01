@@ -26,17 +26,17 @@ export default function RootLayout({
     return (
         <html lang="pt-BR" className={maintFontFamilyRobot.variable}>
             <body className="dark:text-gray-300 text-black bg-gradient-to-l dark:from-gray-900 dark:to-gray-800 bg-gray-300">
-                <header className="flex justify-center sm:justify-start w-auto">
-                    <div className="" >
-                        <div className="pl-12 w-full sm:ml-20 mt-8">
+                <header className="flex justify-center lg:ml-28 dark:text-gray-300 text-black sm:justify-start w-auto">
+                    <div>
+                        <div className="pl-12 w-full sm:ml-20 mt-8 animate-content-second">
                             <Link className="m-auto" href="/">
-                                <strong className="text-4xl hover:opacity-40 duration-300 text-black cursor-pointer">
+                                <strong className="text-4xl font-light hover:opacity-40 duration-300 cursor-pointer">
                                     Marcondes FP
                                 </strong>
                             </Link>
-                            <p className="text-black pl-8 font-bold text-sm">Junior Frontend Engineer</p>
+                            <p className="pl-8 text-sm">Junior Frontend Engineer</p>
                             <div className="ml-6 mb-6">
-                                <nav className="list-none duration-300 mt-4 space-x-4 flex text-black font-bold text-md">
+                                <nav className="list-none duration-300 mt-4 space-x-4 flex text-md">
                                     <li className="after:content-[''] after:duration-500 after:w-[0px] after:h-0.5 after:ease-out after:block after:to-sky-700 after:bg-gradient-to-r after:from-gray-800 hover:after:w-full duration-300 hover:text-sky-700 cursor-pointer">
                                         <Link href="/">
                                             Home
@@ -57,8 +57,8 @@ export default function RootLayout({
                     </div>
                 </header>
                 {children}
-                <footer className="justify-center mx-6 border-t-2 text-black flex border-gray-500 pt-8 w-auto">
-                    <div className="md:flex m-auto justify-center">
+                <footer className="justify-center mx-6 my-10 border-t-2 text-black flex border-gray-500 pt-8 w-auto">
+                    <div className="md:flex m-auto md:space-x-4 justify-center">
                         <p className="text-center">
                             <strong className="">© 2022 - 2024</strong>
                             <br />
