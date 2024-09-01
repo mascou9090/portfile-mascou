@@ -30,7 +30,7 @@ export default function Experience({ name, dataAdimision, dataResignation, skils
 
 
     return (
-        <div className="flex flex-col pb-12 border-l-[1px] pl-4">
+        <div className="flex flex-col pb-12 dark:border-gray-400 border-gray-500 border-l-[1px] pl-4">
             <div>
                 <h3 className="text-3xl">{compane}</h3>
             </div>
@@ -41,11 +41,11 @@ export default function Experience({ name, dataAdimision, dataResignation, skils
                     <p className="text-xs">{dataActual} /</p>
                     <p className="text-xs">{monthExit === 0 ? ("Atual") : (dataExit)}</p>
                 </div>
-                <p className="block my-2">{description}</p>
+                <p className="block my-2 pb-2 md:w-[520px]">{description}</p>
                     <h3 className="text-2xl">Skills</h3>
                 <div className="flex py-2 space-x-3">
                     {skils?.map(skil => (
-                        <div key={skil.name} className={`${skil.cor} text-black font-mono animate-content-second rounded-md p-1`}>
+                        <div key={skil.name} className={`${skil.cor} dark:text-white text-black font-mono animate-content-second rounded-md p-1`}>
                             <p>{skil.name}</p>
                         </div>
                     ))}

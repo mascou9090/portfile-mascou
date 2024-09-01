@@ -1,0 +1,4 @@
+
+export const freelancerDescription = "I participated in sprints, debating improvements to customer product components (Websites). I developed improvements to websites in production. I applied some tests to websites with pending functionality."
+export const internDescription = "Responsible for assisting the development team in maintaining and creating improvements for the official website."
+export const storekeeperDescription = "As a warehouseman, I am responsible for managing spreadsheets, reports and documentation, ensuring effective monitoring of resources and loads. My analytical skills allow me to identify opportunities to improve operational efficiency. Additionally, I coordinate with service providers to ensure proper movement of goods. I use Agil and Slim software for precise control of volumes, validity, titles and brands."

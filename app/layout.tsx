@@ -57,7 +57,7 @@ export default function RootLayout({
                     </div>
                 </header>
                 {children}
-                <footer className="justify-center mx-6 my-10 border-t-2 text-black flex border-gray-500 pt-8 w-auto">
+                <footer className="justify-center mx-6 my-10 border-t-2 dark:text-gray-300 text-black flex border-gray-500 pt-8 w-auto">
                     <div className="md:flex m-auto md:space-x-4 justify-center">
                         <p className="text-center">
                             <strong className="">© 2022 - 2024</strong>
@@ -70,7 +70,7 @@ export default function RootLayout({
                             <strong>Work</strong>
                             <br />
                             <a className="hover:opacity-40 duration-300 cursor-pointer" href="/about">
-                                Develep and Logistic
+                                Develop / Logistic
                             </a>
                         </p>
                         <p className="text-center"><strong>Social</strong>

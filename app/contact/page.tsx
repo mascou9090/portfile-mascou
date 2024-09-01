@@ -36,9 +36,9 @@ export default function Contact() {
                     <p className="text-md">In case you want to take a look at my codes, I also left my <a className="hover:opacity-40 font-bold duration-300" href="https://github.com/mascou9090">Github</a>.</p>
                 </div>
                 <div className="flex animate-content-main justify-center">
-                    <Link href="https://drive.google.com/file/d/1S5EBi9vDpandKnpjOQ6cxiabTFW2974R/view?usp=drive_link" passHref>
+                    <Link href="" passHref>
                         {/* biome-ignore lint/a11y/useButtonType: <explanation> */}
-                        <button className="border-none my-20 mx-4 w-60 h-14 rounded-lg dark:text-gray-300 bg-blue-700 hover:bg-slate-800 hover:text-black text-gray-800 dark:bg-sky-600 dark:hover:bg-stone-900 duration-300 cursor-pointer dark:hover:text-sky-400 font-bold">Curriculun Download</button>
+                        <button className="border-none my-20 mx-4 w-60 h-14 rounded-lg dark:text-gray-300 bg-blue-700 hover:bg-slate-800 hover:text-gray-200 text-gray-800 dark:bg-sky-600 dark:hover:bg-stone-900 duration-300 cursor-not-allowed dark:hover:text-sky-400 font-bold">Curriculun Download</button>
                     </Link>
                 </div>
             </div>
