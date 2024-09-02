@@ -28,7 +28,6 @@ export default function Home() {
           <div className="flex flex-wrap mb-8 space-x-2 max-w-96">
             <Tecs text="text-white" bg="bg-sky-700" name="Next.js 14"/>
             <Tecs text="text-white" bg="bg-sky-600" name="React.js"/>
-            <Tecs text="text-white" bg="bg-blue-300" name="C#"/>
             <Tecs text2="text-blue-500" text="text-white" bg="bg-gray-900" name="Linux"/>
             <Tecs text="text-white" bg="bg-red-400" name="HTML5"/>
             <Tecs text="text-white" bg="bg-yellow-500" name="JavaScript"/>
@@ -36,6 +35,7 @@ export default function Home() {
             <Tecs text="text-white" bg="bg-sky-700" name="Tailwind CSS"/>
             <Tecs text="text-white" bg="bg-pink-400" name="Styled-compenent"/>
             <Tecs text="text-white" bg="bg-blue-500" name="Entity Framework"/>
+            <Tecs text="text-white" bg="bg-blue-300" name="C#"/>
             <Tecs text="text-white" bg="bg-blue-300" name="ASP.NET 6"/>
             <Tecs text="text-white" bg="bg-sky-400" name="Windows"/>
             <Tecs text="text-white" bg="bg-green-600" name="Excel"/>

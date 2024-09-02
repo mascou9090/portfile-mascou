@@ -58,7 +58,7 @@ export default function RootLayout({
                 </header>
                 {children}
                 <footer className="justify-center mx-6 my-10 border-t-2 dark:text-gray-300 text-black flex border-gray-500 pt-8 w-auto">
-                    <div className="md:flex m-auto md:space-x-4 justify-center">
+                    <div className="md:flex md:space-x-4 justify-center">
                         <p className="text-center">
                             <strong className="">© 2022 - 2024</strong>
                             <br />
@@ -88,7 +88,7 @@ export default function RootLayout({
                             <a className="hover:opacity-40 duration-300 cursor-pointer" href="/">Coments</a>
                         </p>
                     </div>
-                    <div className="sm:ml-10 sm:flex pr-14 sm:space-x-4 sm:space-y-0 ">
+                    <div className="sm:ml-10 sm:flex sm:space-x-4 sm:space-y-0 ">
                         <a href="https://github.com/mascou9090">
                             <img className="max-w-6 max-h-6 mb-4 hover:opacity-30 duration-300 cursor-pointer" src={Github.src} alt="Github icon" />
                         </a>
