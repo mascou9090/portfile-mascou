@@ -30,11 +30,11 @@ export default function RootLayout({
                     <div>
                         <div className="pl-12 w-full sm:ml-20 mt-8 animate-content-second">
                             <Link className="m-auto" href="/">
-                                <strong className="text-4xl font-light hover:opacity-40 duration-300 cursor-pointer">
+                                <strong className="text-7xl font-light hover:text-sky-700 duration-300 cursor-pointer">
                                     Marcondes FP
                                 </strong>
                             </Link>
-                            <p className="pl-8 text-sm">Junior Frontend Engineer</p>
+                            <p className="pl-8 text-2xl">Junior Frontend Engineer</p>
                             <div className="ml-6 mb-6">
                                 <nav className="list-none duration-300 mt-4 space-x-4 flex text-md">
                                     <li className="after:content-[''] after:duration-500 after:w-[0px] after:h-0.5 after:ease-out after:block after:to-sky-700 after:bg-gradient-to-r after:from-gray-800 hover:after:w-full duration-300 hover:text-sky-700 cursor-pointer">
@@ -62,30 +62,30 @@ export default function RootLayout({
                         <p className="text-center">
                             <strong className="">© 2022 - 2024</strong>
                             <br />
-                            <a className="hover:opacity-40 duration-300 cursor-pointer" href="/">
+                            <a className="hover:text-sky-700   duration-300 cursor-pointer" href="/">
                                 Marcondes FP
                             </a>
                         </p>
                         <p className="text-center">
                             <strong>Work</strong>
                             <br />
-                            <a className="hover:opacity-40 duration-300 cursor-pointer" href="/about">
+                            <a className="hover:text-sky-700  duration-300 cursor-pointer" href="/about">
                                 Develop / Logistic
                             </a>
                         </p>
                         <p className="text-center"><strong>Social</strong>
                             <br />
-                            <a className="hover:opacity-40 pr-1 duration-300 cursor-pointer" href="https://github.com/mascou9090">
+                            <a className="hover:text-sky-700  pr-1 duration-300 cursor-pointer" href="https://github.com/mascou9090">
                                 Github
                             </a>
                             /
-                            <a className="hover:opacity-40 pl-1 duration-300 cursor-pointer" href="https://www.linkedin.com/in/marcondes-pinheiro-48aa231ab/">
+                            <a className="hover:text-sky-700  pl-1 duration-300 cursor-pointer" href="https://www.linkedin.com/in/marcondes-pinheiro-48aa231ab/">
                                 Instagram
                             </a>
                         </p>
                         <p className="text-center"><strong>Indications</strong>
                             <br />
-                            <a className="hover:opacity-40 duration-300 cursor-pointer" href="/">Coments</a>
+                            <a className="hover:text-sky-700 duration-300 cursor-pointer" href="/">Coments</a>
                         </p>
                     </div>
                     <div className="sm:ml-10 sm:flex mt-1 sm:space-x-4 sm:space-y-0 ">
