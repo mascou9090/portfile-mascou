@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export default function Contact() {
     return (
-        <div className="sm:h-[650px] h-[570px]">
+        <div className="">
                 <div className="justify-center animate-content-second flex space-x-8">
                     <a href="https://github.com/mascou9090">
                         <img className="sm:w-16 sm:h-16 w-10 h-10 hover:opacity-30 duration-500 cursor-pointer " src={Github.src} alt="Github icon Navgation" />
@@ -35,9 +35,9 @@ export default function Contact() {
                     <p className="text-md">In case you want to take a look at my codes, I also left my <a className="hover:opacity-40 font-bold duration-300" href="https://github.com/mascou9090">Github</a>.</p>
                 </div>
                 <div className="flex animate-content-main justify-center">
-                    <Link href="" passHref>
+                    <Link href="https://drive.google.com/file/d/1HIzHy2kd_HkwvFjTY1PIOCUMISPGRX7L/view?usp=drive_link" passHref>
                         {/* biome-ignore lint/a11y/useButtonType: <explanation> */}
-                        <button className="border-none my-20 mx-4 sm:w-60 w-[350px] h-14 rounded-lg dark:text-gray-300 bg-blue-700 hover:bg-slate-800 hover:text-gray-200 text-gray-800 dark:bg-sky-600 dark:hover:bg-stone-900 duration-300 cursor-not-allowed dark:hover:text-sky-400 font-bold">Curriculun Download</button>
+                        <button className="border-none my-20 mx-4 sm:w-60 w-[350px] h-14 rounded-lg dark:text-gray-300 bg-blue-700 hover:bg-slate-800 hover:text-gray-200 text-gray-800 dark:bg-sky-600 dark:hover:bg-stone-900 duration-300 cursor-pointer dark:hover:text-sky-400 font-bold">Curriculun Download</button>
                     </Link>
                 </div>
         </div>
