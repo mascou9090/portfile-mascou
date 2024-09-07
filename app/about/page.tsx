@@ -21,8 +21,8 @@ export default function Abount() {
                     </div>
                 </div>
             </div>
-            <div className="sm:ml-48 my-36 sm:flex justify-center ">
-                <div className="pl-10 mb-36 my-auto dark:text-gray-300 text-black ">
+            <div className="flex justify-center items-center flex-wrap mt-20 mx-10">
+                <div className="mb-36 mx-10 my-auto dark:text-gray-300 text-black">
                     <h2 className="mb-10 mx-auto animate-content-third w-72 text-3xl font-bold dark:hover:text-pink-500 dark:text-sky-500 hover:text-sky-400 text-pink-500 duration-300 cursor-pointer">Do you have dreams?</h2>
                     <p>My dream is to one day become a dev.</p> <br />
                     <p>Not just any dev, the one who solves the problem, the one who is cited by some and admired by others.</p>
@@ -34,8 +34,13 @@ export default function Abount() {
                     <p>With passion, I follow all the Front-End events that take place here, always looking for new inspiration and knowledge.</p> <br />
                     <p>I am deeply enthusiastic about this area and, with determination, I aim to become a highly recognized and desired Developer in the market.</p>
                 </div>
-                <div className="flex w-[60%]">
-                    <img className="ml-28 animate-content-main sm:w[500px] w-[390px] sm:h-[500px] h-[390px] rounded-lg" src={PostImg.src} alt="Perfil Ilustration me" />
+                <div className="">
+                    <h2 className="mb-10 mx-auto animate-content-main text-3xl font-bold dark:hover:text-pink-500 dark:text-sky-500 hover:text-sky-400 text-pink-500 duration-300 cursor-pointer">Projects</h2>
+                    <div className="">
+                        <h2 className="border-b-2 dark:border-white border-gray-700 sm:w-96 dark:text-gray-300 text-black mb-4">It's building</h2>
+                        <h2 className="border-b-2 dark:border-white border-gray-700 sm:w-96 dark:text-gray-300 text-black mb-4">It's building</h2>
+                        <h2 className="border-b-2 dark:border-white border-gray-700 sm:w-96 dark:text-gray-300 text-black mb-4">It's building</h2>
+                    </div>
                 </div>
             </div>
         </div>

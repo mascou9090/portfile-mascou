@@ -30,7 +30,7 @@ export default function RootLayout({
                     <div>
                         <div className="pl-12 w-full sm:ml-20 mt-8 animate-content-second">
                             <Link className="m-auto" href="/">
-                                <strong className="text-7xl font-light hover:text-sky-700 duration-300 cursor-pointer">
+                                <strong className="sm:text-7xl text-6xl font-light hover:text-sky-700 duration-300 cursor-pointer">
                                     Marcondes FP
                                 </strong>
                             </Link>
