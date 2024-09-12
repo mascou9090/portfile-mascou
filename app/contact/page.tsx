@@ -1,28 +1,29 @@
-import Github from "../../assets/github.png";
-import Instagram from "../../assets/instagram.png";
-import Linkedin from "../../assets/linkedin.png";
-import Whatsap from "../../assets/whatsapp.png";
-import Email from "../../assets/email.png";
+
 import Link from "next/link";
+import { GithubIcon } from "../svg/githubBig";
+import { EmailIcon } from "../svg/email";
+import { InstagramIcon } from "../svg/instagramBig";
+import { WhatsappIcon } from "../svg/whatsapp";
+import { LinkdinIcon } from "../svg/linkdinBig";
 
 export default function Contact() {
     return (
         <div className="">
                 <div className="justify-center animate-content-second flex space-x-8">
                     <a href="https://github.com/mascou9090">
-                        <img className="sm:w-16 sm:h-16 w-10 h-10 hover:opacity-30 duration-500 cursor-pointer " src={Github.src} alt="Github icon Navgation" />
+                        <GithubIcon />
                     </a>
                     <a href="https://www.linkedin.com/in/marcondes-pinheiro-48aa231ab/">
-                        <img className="sm:w-16 sm:h-16 w-10 h-10 hover:opacity-30 duration-500 cursor-pointer" src={Linkedin.src} alt="Github icon Navgation" />
+                        <LinkdinIcon />
                     </a>
                     <a href="https://www.instagram.com/marcondes_soeu/">
-                        <img className="sm:w-16 sm:h-16 w-10 h-10 hover:opacity-30 duration-500 cursor-pointer" src={Instagram.src} alt="Github icon Navgation" />
+                        <InstagramIcon />
                     </a>
                     <a href="mailto:marcondessam@gmail.com">
-                        <img className="sm:w-16 sm:h-16 w-10 h-10 hover:opacity-30 duration-500 cursor-pointer" src={Email.src} alt="Github icon Navgation" />
+                        <EmailIcon />
                     </a>
                     <a href="https://wa.me//5585999504253?text=Ola%20Dev%20Marcondes%20venho%20direcionado%20do%20seu%20site!">
-                        <img className="sm:w-16 sm:h-16 w-10 h-10 hover:opacity-30 duration-500 cursor-pointer" src={Whatsap.src} alt="Github icon Navgation" />
+                        <WhatsappIcon />
                     </a>
                 </div>
                 <div className="px-4 py-10 animate-content-main flex flex-col text-center justify-center">

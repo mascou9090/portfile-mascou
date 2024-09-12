@@ -1,16 +1,15 @@
 import type { Metadata } from "next";
-import Github from "../assets/github.png"
-import Instagram from "../assets/instagram.png"
-import Linkedin from "../assets/linkedin.png"
 import "./globals.css";
 import Link from "next/link";
-import {Roboto} from "next/font/google";
-import {Oswald} from "next/font/google";
+import { Roboto } from "next/font/google";
+import { GithubIcon } from "./svg/github";
+import { LinkdinIcon } from "./svg/linkdin";
+import { InstagramIcon } from "./svg/instagram";
 
 const maintFontFamilyRobot = Roboto({
     weight: ['300', '400', '700'],
     subsets: ['latin'],
-    variable:'--font-family-robot',
+    variable: '--font-family-robot',
 });
 
 export const metadata: Metadata = {
@@ -88,15 +87,15 @@ export default function RootLayout({
                             <a className="hover:text-sky-700 duration-300 cursor-pointer" href="/">Coments</a>
                         </p>
                     </div>
-                    <div className="sm:ml-10 sm:flex mt-1 sm:space-x-4 sm:space-y-0 ">
+                    <div className="sm:ml-10 sm:flex mt-1 mb-2 sm:space-x-4 sm:space-y-0 ">
                         <a href="https://github.com/mascou9090">
-                            <img className="max-w-6 max-h-6 mb-4 hover:opacity-30 duration-300 cursor-pointer" src={Github.src} alt="Github icon" />
+                            <GithubIcon />
                         </a>
                         <a href="https://www.instagram.com/marcondes_soeu/">
-                            <img className="max-w-6 max-h-6 mb-4 hover:opacity-30 duration-300 cursor-pointer" src={Instagram.src} alt="Instagram icon" />
+                            <InstagramIcon />
                         </a>
                         <a href="https://www.linkedin.com/in/marcondes-pinheiro-48aa231ab/">
-                            <img className="max-w-6 max-h-6 mb-4 hover:opacity-30 duration-300 cursor-pointer" src={Linkedin.src} alt="Linkedin icon" />
+                            <LinkdinIcon />
                         </a>
                     </div>
                 </footer>
