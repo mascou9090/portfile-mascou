@@ -13,7 +13,11 @@ const maintFontFamilyRobot = Roboto({
 });
 
 export const metadata: Metadata = {
-    title: "MarcondesFR | Portfile",
+    title: {
+        absolute: "",
+        default: "Home | Portfile",
+        template: "%s | Portfile"
+    },
     description: "Created for Marcondes",
 };
 

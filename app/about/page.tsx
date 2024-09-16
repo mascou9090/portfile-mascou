@@ -1,4 +1,9 @@
-import PostImg from "../../assets/perfilImg2.png";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "About"
+};
+
 export default function Abount() {
     return (
         <div className="animate-content-second text-center">

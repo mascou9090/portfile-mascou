@@ -5,11 +5,16 @@ import { EmailIcon } from "../svg/email";
 import { InstagramIcon } from "../svg/instagramBig";
 import { WhatsappIcon } from "../svg/whatsapp";
 import { LinkdinIcon } from "../svg/linkdinBig";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Contact"
+};
 
 export default function Contact() {
     return (
         <div className="">
-                <div className="justify-center animate-content-second flex space-x-8">
+                <div className="justify-center animate-content-second flex space-x-5">
                     <a href="https://github.com/mascou9090">
                         <GithubIcon />
                     </a>
