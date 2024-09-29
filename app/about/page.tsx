@@ -4,7 +4,8 @@ export const metadata: Metadata = {
     title: "About"
 };
 
-export default function Abount() {
+export default function Abount() {        
+    
     return (
         <div className="animate-content-second text-center">
             <div className="md:flex border-b-[1px] dark:border-gray-300 border-gray-800 mx-10">
@@ -38,14 +39,6 @@ export default function Abount() {
                     <p>I'm from Fortaleza, a vibrant coastal city in northern Brazil.</p>
                     <p>With passion, I follow all the Front-End events that take place here, always looking for new inspiration and knowledge.</p> <br />
                     <p>I am deeply enthusiastic about this area and, with determination, I aim to become a highly recognized and desired Developer in the market.</p>
-                </div>
-                <div className="">
-                    <h2 className="mb-10 mx-auto animate-content-main text-3xl font-bold dark:hover:text-pink-500 dark:text-sky-500 hover:text-sky-400 text-pink-500 duration-300 cursor-pointer">Projects</h2>
-                    <div className="">
-                        <h2 className="border-b-2 dark:border-white border-gray-700 sm:w-96 dark:text-gray-300 text-black mb-4">It's building</h2>
-                        <h2 className="border-b-2 dark:border-white border-gray-700 sm:w-96 dark:text-gray-300 text-black mb-4">It's building</h2>
-                        <h2 className="border-b-2 dark:border-white border-gray-700 sm:w-96 dark:text-gray-300 text-black mb-4">It's building</h2>
-                    </div>
                 </div>
             </div>
         </div>

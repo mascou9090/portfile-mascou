@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Experience from "./experience";
-import { freelancerDescription, internDescription, storekeeperDescription } from "./descripetions";
+import { freelancerDescription, freelancerDescriptionTray, internDescription, storekeeperDescription } from "./descripetions";
 import Tecs from "./tecs";
 
 console.log("a")
@@ -51,7 +51,7 @@ export default function Home() {
         <div className="mb-20">
           <Experience name="Intern / Estagiario" skils={[{ 'name': "Python", 'cor': "bg-red-500" }, { 'name': "C#", 'cor': "bg-blue-300" }]} dataAdimision={new Date(2019, 2)} dataResignation={new Date(2020, 7)} description={internDescription} compane="Tribunal Eleitoral do Ceará" />
           <Experience name="Freelancer / Autonomo" skils={[{ 'name': "React", 'cor': "bg-blue-400" }, { 'name': "Typescripe", 'cor': "bg-blue-600" }]} dataAdimision={new Date(2022, 7)} dataResignation={new Date(2023, 6)} description={freelancerDescription} compane="Jsnow Solutions" />
-          <Experience name="Storekeeper / Almocharife" skils={[{ 'name': "Windows", 'cor': "bg-sky-400" }, { 'name': "Slim", 'cor': "bg-sky-500" }, { 'name': "Agil", 'cor': "bg-yellow-600" }, { 'name': "Excel", 'cor': "bg-green-600" }, { 'name': "Word", 'cor': "bg-blue-500" }]} dataAdimision={new Date(2023, 9)} dataResignation={new Date(0, 0)} description={storekeeperDescription} compane="LokFrio Armazenagem" />
+          <Experience name="Freelacer / Autonomo" skils={[{ 'name': "Windows", 'cor': "bg-sky-400" }, { 'name': "Excel", 'cor': "bg-green-600" }, { 'name': "Canvas", 'cor': "bg-blue-300" }, { 'name': "JavaScrit", 'cor': "bg-yellow-500" }, { 'name': "TRAY", 'cor': "bg-blue-500" }]} dataAdimision={new Date(2023, 8)} dataResignation={new Date(2023, 9)} description={freelancerDescriptionTray} compane="Kasa da Moda" />
         </div>
       </aside>
       <Link className="" href="/contact">
